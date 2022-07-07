@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.heroContainer {
+	background-image: url('../Images/background.png');
+	min-height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.navigationLinks {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+.navigationLinks ul {
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	list-style-type: none;
+	
+}
+
+.navigationLinks li {
+	padding: 10px;
+}
+
+.applicationBadges {
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
