@@ -156,3 +156,114 @@
 	width: 350px;
 	text-align: center;
 }
+
+.storiesSection {
+	padding: 20px;
+	background-color: #D5FAFC;;
+}
+
+.storiesRow1 , .storiesRow2 {
+	display: flex;
+	max-width: 1440px;
+	margin: 10px auto;
+	justify-content: center;
+	gap: 40px;
+}
+
+.storiesRow2 {
+	margin-bottom: 100px;
+}
+
+.storiesCards {
+	background-color: white;
+	padding: 35px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 200px;
+	gap: 25px;
+}
+
+.storiesCards img:not(.storyQuote) {
+	width: 129.58px;
+}
+
+.storyQuote {
+	width: 15px;
+	margin-left: 10px;
+}
+
+#airbnbCard {
+	width: 365px;
+	height: 300px;
+	position: relative;
+	top: 120px;
+	left: -32px;
+}
+
+#hubspotCard {
+	width: 322px;
+	height: 354px;
+}
+
+#bookmyshowCard {
+	width: 300px;
+	height: 255px;
+	position: relative;
+	top: 145px;
+}
+
+.authorPosition {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #969BAB;
+}
+
+.authorName {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	color: #18191F;
+}
+
+.cardsContentWapper {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.cardsContent {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cardsFooter {
+	display: flex;
+	flex-direction: column;
+}
+
+.storiesTitle {
+	width: 445px;
+}
+
+.storiesTitle h2 {
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	color: #18191F;
+}
+
+.storiesTitle p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.titleQuote {
+	width: 140px;
+	position: relative;
+	top: 60px;
+	left: -90px;
+}
