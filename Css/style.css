@@ -8,7 +8,7 @@
 	background-image: url('../Images/background.png');
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 }
 
@@ -45,6 +45,12 @@
 	margin-top: 90px;
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
+}
+
+.mainHero {
+	display: flex;
+	justify-content: space-between;
 	padding: 20px;
 }
 
@@ -75,4 +81,12 @@
 	font-size: 16px;
 	font-weight: 500;
 	cursor: pointer;
+}
+.logosHeroSection {
+	display: flex;
+	max-width: 1440px;
+	gap: 64px;
+	padding: 30px;
+	justify-content: center;
+	margin: 15px auto;
 }
