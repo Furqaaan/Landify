@@ -267,3 +267,50 @@
 	top: 60px;
 	left: -90px;
 }
+
+.achievementsSection {
+	display: flex;
+	max-width: 1440px;
+	margin: 100px auto;
+	align-items: center;
+	gap: 15px;
+}
+
+.countSection1,.countSection2 {
+	display: flex;
+	margin: 40px auto;
+}
+
+.mainAchievement h2 {
+	color: #18191F;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	width: 540px;
+	height: 128px;
+}
+
+.achievementCounts h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 40px;
+	width: 191px;
+	height: 40px;
+	color: #18191F;
+}
+
+.countItem {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.textItem p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+
