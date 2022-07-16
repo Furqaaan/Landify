@@ -11,6 +11,7 @@ img {
 
 li:hover {
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .app {
@@ -172,7 +173,7 @@ li:hover {
 
 .storiesSection {
 	padding: 20px;
-	background-color: #D5FAFC;;
+	background-color: #D5FAFC;
 }
 
 .storiesRow1 , .storiesRow2 {
@@ -477,7 +478,7 @@ li:hover {
 .footerSection {
 	width: 100%;
 	height: 310px;
-	background-color: #0B0D17;;
+	background-color: #0B0D17;
 	color: white;
 	font-weight: 400;
 	font-size: 16px;
@@ -518,8 +519,4 @@ li:hover {
 
 .footerLinks img {
 	width: 35px;
-}
-
-li:hover {
-	cursor: pointer;
 }
